@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Leckerli+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    cursor: default;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.arizonia-regular {
+    font-family: "Arizonia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+}
+
+.brand-name{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.nav-bar{
+    padding-right: 15px;
+}
+
+
+nav{
+    background-color:white;
+    min-height: 75px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.nav-menu li{
+    display: inline-block;
+    list-style: none;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px 3px;
+    transition: 0.1s;
+}
+    
+.nav-menu li:hover{
+    color: white;
+    background-color: rgb(209, 118, 53);
+}
+
+.jumbo-banner{
+    background-color: blue;
+    height: 325px;
+    background-image: url('../img/bg/banner-bg.jpg');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white ;
+    font-size: 70px;
+    text-shadow: 1px 1px black;
+    
+}
+
+.leckerli-one-regular {
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.outer-container{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.options-container{
+    background-color:black;
+    width: 20%;
+}
+
+.circles ul li{
+    display: inline-block;
+}
+
+.circles{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    display: flex;
+
+}
+
+.circles ul li img{
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 2px 2px grey;
+    margin: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.circles ul li img:hover{ 
+    height: 216px;
+    border-radius: 200px;
+    margin: 0px;
+}
+
+.circles ul{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    padding: 70px 20px 50px 20px;
+    flex-wrap: wrap;
+}
+
+.products ul li{
+    display: inline-block;
+    margin: 50px 10px 10px 10px ;
+    
+}
+
+.products{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    display: flex;
+
+}
+
+.products ul li img{
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey; 
+    margin: 7px 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.products ul li img:hover{ 
+    height: 364px;
+    width: 260px;
+    margin: 0px;
+}
+.products ul{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.product-title{
+    padding: 10px 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+
+}
+.products-container{
+    width: 80%;
+}
+.options-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.footer{
+    background-image: url('../img/bg/footer-bg.jpg');
+    width:100%;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.div1,.div2{
+    font-size: 25px;
+    margin: 150px 0;
+}

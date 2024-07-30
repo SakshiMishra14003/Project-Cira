@@ -1,0 +1,29 @@
+.heading{
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 9px;
+    width: auto;
+    margin: 8px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(209, 118, 53);
+    background-size: cover;
+}
+
+
+/* Section styles */
+#about {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    min-height: 80vh;
+    margin: 0 auto;
+}
